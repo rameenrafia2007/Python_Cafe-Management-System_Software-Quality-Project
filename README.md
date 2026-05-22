@@ -1,9 +1,16 @@
 # Python_Cafe-Management-System_Software-Quality-Project
 A Python-based Cafe Management System developed for SQE (Software Quality Engineering). The system manages cafe operations including menu management, customer registration, order processing all in a single Python file. 
+
 The Cafe Management System is a Python-based console application that automates and manages the day-to-day operations of a cafe. Instead of handling orders, customers, and billing manually on paper, this system provides a simple menu-driven interface where the cafe staff can perform all operations digitally through the terminal.
+
 The system is built entirely in Python using basic programming concepts such as functions, loops, conditional statements, and in-memory data storage using lists and dictionaries. No external libraries or databases are required — it runs on pure Python 3.
+
 The application handles three types of customer orders. Take-Away orders are for customers who pick up their order from the counter. Dine-In orders are for customers who sit inside the cafe and are served at the table. Home Delivery orders are dispatched to the customer's address and include an additional delivery charge of Rs. 200.
+
 When a customer is ready to pay, the billing module calculates the total amount based on the items ordered and quantity. It also supports three discount categories — student (10% off), senior citizen (15% off), and loyalty member (20% off) — and generates a formatted receipt for the customer.
+
 The feedback module allows customers to rate their experience on a scale of 1 to 5 stars along with a written comment. The system automatically classifies reviews as positive (4 stars and above) or negative (2 stars and below) and can calculate the overall average rating across all feedback received.
+
 The reports module gives the cafe owner a quick summary of total customers, total orders placed, pending orders, total earnings, and customer satisfaction rating — all in one place.
+
 Beyond being a functional application, this project was also developed as part of a Software Quality Engineering (SQE) course assignment. The code intentionally contains real-world programming mistakes such as unused variables, a hardcoded password, bare exception handling, unreachable code, and comparison errors. These issues are analyzed using SonarQube for code quality inspection and Snyk for security vulnerability scanning, giving students hands-on experience with industry-standard software quality tools. The project also includes 50 unit tests written using Python's built-in unittest framework, covering all five core modules of the system.
